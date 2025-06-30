@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		F038EAB92DE6B0A4000806D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F038EAA02DE6B0A3000806D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F038EAA72DE6B0A3000806D7;
+			remoteInfo = "ios-cashback-sample";
+		};
+		F038EAC32DE6B0A4000806D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F038EAA02DE6B0A3000806D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F038EAA72DE6B0A3000806D7;
+			remoteInfo = "ios-cashback-sample";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F038EAA82DE6B0A3000806D7 /* ios-cashback-sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-cashback-sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F038EAB82DE6B0A4000806D7 /* ios-cashback-sampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-cashback-sampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F038EAC22DE6B0A4000806D7 /* ios-cashback-sampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-cashback-sampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		F038EAE42DE7042C000806D7 /* Exceptions for "ios-cashback-sample" folder in "ios-cashback-sample" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = F038EAA72DE6B0A3000806D7 /* ios-cashback-sample */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		F038EAAA2DE6B0A3000806D7 /* ios-cashback-sample */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				F038EAE42DE7042C000806D7 /* Exceptions for "ios-cashback-sample" folder in "ios-cashback-sample" target */,
+			);
+			path = "ios-cashback-sample";
+			sourceTree = "<group>";
+		};
+		F038EABB2DE6B0A4000806D7 /* ios-cashback-sampleTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "ios-cashback-sampleTests";
+			sourceTree = "<group>";
+		};
+		F038EAC52DE6B0A4000806D7 /* ios-cashback-sampleUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "ios-cashback-sampleUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F038EAA52DE6B0A3000806D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F038EAB52DE6B0A4000806D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F038EABF2DE6B0A4000806D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F038EA9F2DE6B0A3000806D7 = {
+			isa = PBXGroup;
+			children = (
+				F038EAAA2DE6B0A3000806D7 /* ios-cashback-sample */,
+				F038EABB2DE6B0A4000806D7 /* ios-cashback-sampleTests */,
+				F038EAC52DE6B0A4000806D7 /* ios-cashback-sampleUITests */,
+				F038EAA92DE6B0A3000806D7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F038EAA92DE6B0A3000806D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F038EAA82DE6B0A3000806D7 /* ios-cashback-sample.app */,
+				F038EAB82DE6B0A4000806D7 /* ios-cashback-sampleTests.xctest */,
+				F038EAC22DE6B0A4000806D7 /* ios-cashback-sampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F038EAA72DE6B0A3000806D7 /* ios-cashback-sample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F038EACC2DE6B0A4000806D7 /* Build configuration list for PBXNativeTarget "ios-cashback-sample" */;
+			buildPhases = (
+				F038EAA42DE6B0A3000806D7 /* Sources */,
+				F038EAA52DE6B0A3000806D7 /* Frameworks */,
+				F038EAA62DE6B0A3000806D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				F038EAAA2DE6B0A3000806D7 /* ios-cashback-sample */,
+			);
+			name = "ios-cashback-sample";
+			packageProductDependencies = (
+			);
+			productName = "ios-cashback-sample";
+			productReference = F038EAA82DE6B0A3000806D7 /* ios-cashback-sample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F038EAB72DE6B0A4000806D7 /* ios-cashback-sampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F038EACF2DE6B0A4000806D7 /* Build configuration list for PBXNativeTarget "ios-cashback-sampleTests" */;
+			buildPhases = (
+				F038EAB42DE6B0A4000806D7 /* Sources */,
+				F038EAB52DE6B0A4000806D7 /* Frameworks */,
+				F038EAB62DE6B0A4000806D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F038EABA2DE6B0A4000806D7 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F038EABB2DE6B0A4000806D7 /* ios-cashback-sampleTests */,
+			);
+			name = "ios-cashback-sampleTests";
+			packageProductDependencies = (
+			);
+			productName = "ios-cashback-sampleTests";
+			productReference = F038EAB82DE6B0A4000806D7 /* ios-cashback-sampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F038EAC12DE6B0A4000806D7 /* ios-cashback-sampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F038EAD22DE6B0A4000806D7 /* Build configuration list for PBXNativeTarget "ios-cashback-sampleUITests" */;
+			buildPhases = (
+				F038EABE2DE6B0A4000806D7 /* Sources */,
+				F038EABF2DE6B0A4000806D7 /* Frameworks */,
+				F038EAC02DE6B0A4000806D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F038EAC42DE6B0A4000806D7 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F038EAC52DE6B0A4000806D7 /* ios-cashback-sampleUITests */,
+			);
+			name = "ios-cashback-sampleUITests";
+			packageProductDependencies = (
+			);
+			productName = "ios-cashback-sampleUITests";
+			productReference = F038EAC22DE6B0A4000806D7 /* ios-cashback-sampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F038EAA02DE6B0A3000806D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					F038EAA72DE6B0A3000806D7 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					F038EAB72DE6B0A4000806D7 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = F038EAA72DE6B0A3000806D7;
+					};
+					F038EAC12DE6B0A4000806D7 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = F038EAA72DE6B0A3000806D7;
+					};
+				};
+			};
+			buildConfigurationList = F038EAA32DE6B0A3000806D7 /* Build configuration list for PBXProject "ios-cashback-sample" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F038EA9F2DE6B0A3000806D7;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = F038EAA92DE6B0A3000806D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F038EAA72DE6B0A3000806D7 /* ios-cashback-sample */,
+				F038EAB72DE6B0A4000806D7 /* ios-cashback-sampleTests */,
+				F038EAC12DE6B0A4000806D7 /* ios-cashback-sampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F038EAA62DE6B0A3000806D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F038EAB62DE6B0A4000806D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F038EAC02DE6B0A4000806D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F038EAA42DE6B0A3000806D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F038EAB42DE6B0A4000806D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F038EABE2DE6B0A4000806D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F038EABA2DE6B0A4000806D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F038EAA72DE6B0A3000806D7 /* ios-cashback-sample */;
+			targetProxy = F038EAB92DE6B0A4000806D7 /* PBXContainerItemProxy */;
+		};
+		F038EAC42DE6B0A4000806D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F038EAA72DE6B0A3000806D7 /* ios-cashback-sample */;
+			targetProxy = F038EAC32DE6B0A4000806D7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F038EACA2DE6B0A4000806D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F038EACB2DE6B0A4000806D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F038EACD2DE6B0A4000806D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "ios-cashback-sample/ios-cashback-sample.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ios-cashback-sample/Preview Content\"";
+				DEVELOPMENT_TEAM = 43JNMFY94M;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ios-cashback-sample/Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ai.fairytech.ios-cashback-sample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F038EACE2DE6B0A4000806D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "ios-cashback-sample/ios-cashback-sample.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ios-cashback-sample/Preview Content\"";
+				DEVELOPMENT_TEAM = 43JNMFY94M;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ios-cashback-sample/Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ai.fairytech.ios-cashback-sample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F038EAD02DE6B0A4000806D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 43JNMFY94M;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ai.fairytech.ios-cashback-sampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios-cashback-sample.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ios-cashback-sample";
+			};
+			name = Debug;
+		};
+		F038EAD12DE6B0A4000806D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 43JNMFY94M;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ai.fairytech.ios-cashback-sampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios-cashback-sample.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ios-cashback-sample";
+			};
+			name = Release;
+		};
+		F038EAD32DE6B0A4000806D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 43JNMFY94M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ai.fairytech.ios-cashback-sampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ios-cashback-sample";
+			};
+			name = Debug;
+		};
+		F038EAD42DE6B0A4000806D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 43JNMFY94M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ai.fairytech.ios-cashback-sampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ios-cashback-sample";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F038EAA32DE6B0A3000806D7 /* Build configuration list for PBXProject "ios-cashback-sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F038EACA2DE6B0A4000806D7 /* Debug */,
+				F038EACB2DE6B0A4000806D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F038EACC2DE6B0A4000806D7 /* Build configuration list for PBXNativeTarget "ios-cashback-sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F038EACD2DE6B0A4000806D7 /* Debug */,
+				F038EACE2DE6B0A4000806D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F038EACF2DE6B0A4000806D7 /* Build configuration list for PBXNativeTarget "ios-cashback-sampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F038EAD02DE6B0A4000806D7 /* Debug */,
+				F038EAD12DE6B0A4000806D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F038EAD22DE6B0A4000806D7 /* Build configuration list for PBXNativeTarget "ios-cashback-sampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F038EAD32DE6B0A4000806D7 /* Debug */,
+				F038EAD42DE6B0A4000806D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F038EAA02DE6B0A3000806D7 /* Project object */;
+}
